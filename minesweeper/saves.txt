@@ -1,0 +1,1119 @@
+--- !ruby/object:Minesweeper
+board: !ruby/object:Board
+  board:
+  - - &12 !ruby/object:Tile
+      has_bomb: false
+      state: 0
+      neighbors:
+      - &6 !ruby/object:Tile
+        has_bomb: false
+        state: 1
+        neighbors:
+        - &8 !ruby/object:Tile
+          has_bomb: false
+          state: 
+          neighbors:
+          - &7 !ruby/object:Tile
+            has_bomb: false
+            state: 
+            neighbors:
+            - &3 !ruby/object:Tile
+              has_bomb: false
+              state: 
+              neighbors:
+              - &1 !ruby/object:Tile
+                has_bomb: false
+                state: 
+                neighbors:
+                - &2 !ruby/object:Tile
+                  has_bomb: false
+                  state: 
+                  neighbors:
+                  - &4 !ruby/object:Tile
+                    has_bomb: true
+                    state: 
+                    neighbors:
+                    - *1
+                    - *2
+                    - &5 !ruby/object:Tile
+                      has_bomb: false
+                      state: 1
+                      neighbors:
+                      - &15 !ruby/object:Tile
+                        has_bomb: false
+                        state: 
+                        neighbors:
+                        - *3
+                        - *1
+                        - *2
+                        - *4
+                        - *5
+                        - *6
+                        - &9 !ruby/object:Tile
+                          has_bomb: false
+                          state: 1
+                          neighbors:
+                          - &10 !ruby/object:Tile
+                            has_bomb: false
+                            state: 
+                            neighbors:
+                            - *7
+                            - *3
+                            - *8
+                            - *9
+                            - &11 !ruby/object:Tile
+                              has_bomb: true
+                              state: 
+                              neighbors:
+                              - *10
+                              - *8
+                              - *9
+                              - &13 !ruby/object:Tile
+                                has_bomb: false
+                                state: 1
+                                neighbors:
+                                - *11
+                                - *9
+                                - *6
+                                - &16 !ruby/object:Tile
+                                  has_bomb: false
+                                  state: 0
+                                  neighbors:
+                                  - *9
+                                  - *6
+                                  - *5
+                                  - *12
+                                  - *13
+                                  flagged: false
+                                - &14 !ruby/object:Tile
+                                  has_bomb: false
+                                  state: 
+                                  neighbors:
+                                  - *11
+                                  - *9
+                                  - *13
+                                  flagged: false
+                                flagged: false
+                              - *14
+                              flagged: false
+                            flagged: false
+                          - *8
+                          - *15
+                          - *6
+                          - *16
+                          - *13
+                          - *14
+                          - *11
+                          flagged: false
+                        - *8
+                        flagged: false
+                      - *4
+                      - *12
+                      - *16
+                      - *6
+                      flagged: false
+                    - *6
+                    - *15
+                    flagged: false
+                  - *15
+                  - *1
+                  flagged: false
+                - *4
+                - *15
+                - *8
+                - *3
+                flagged: false
+              - *15
+              - *8
+              - *10
+              - *7
+              flagged: false
+            - *8
+            - *10
+            flagged: false
+          - *3
+          - *1
+          - *15
+          - *6
+          - *9
+          - *11
+          - *10
+          flagged: false
+        - *15
+        - *4
+        - *5
+        - *12
+        - *16
+        - *13
+        - *9
+        flagged: false
+      - *5
+      - *16
+      flagged: false
+    - *16
+    - *13
+    - *14
+  - - *5
+    - *6
+    - *9
+    - *11
+  - - *4
+    - *15
+    - *8
+    - *10
+  - - *2
+    - *1
+    - *3
+    - *7
+--- !ruby/object:Minesweeper
+board: !ruby/object:Board
+  board:
+  - - &49 !ruby/object:Tile
+      has_bomb: false
+      state: 
+      neighbors:
+      - &51 !ruby/object:Tile
+        has_bomb: false
+        state: 1
+        neighbors:
+        - &45 !ruby/object:Tile
+          has_bomb: false
+          state: 2
+          neighbors:
+          - &40 !ruby/object:Tile
+            has_bomb: true
+            state: 
+            neighbors:
+            - &42 !ruby/object:Tile
+              has_bomb: false
+              state: 1
+              neighbors:
+              - &27 !ruby/object:Tile
+                has_bomb: false
+                state: 0
+                neighbors:
+                - &21 !ruby/object:Tile
+                  has_bomb: false
+                  state: 1
+                  neighbors:
+                  - &23 !ruby/object:Tile
+                    has_bomb: false
+                    state: 1
+                    neighbors:
+                    - &22 !ruby/object:Tile
+                      has_bomb: false
+                      state: 0
+                      neighbors:
+                      - &18 !ruby/object:Tile
+                        has_bomb: false
+                        state: 0
+                        neighbors:
+                        - &15 !ruby/object:Tile
+                          has_bomb: false
+                          state: 0
+                          neighbors:
+                          - &12 !ruby/object:Tile
+                            has_bomb: false
+                            state: 0
+                            neighbors:
+                            - &9 !ruby/object:Tile
+                              has_bomb: false
+                              state: 0
+                              neighbors:
+                              - &6 !ruby/object:Tile
+                                has_bomb: false
+                                state: 1
+                                neighbors:
+                                - &3 !ruby/object:Tile
+                                  has_bomb: false
+                                  state: 
+                                  neighbors:
+                                  - &1 !ruby/object:Tile
+                                    has_bomb: false
+                                    state: 
+                                    neighbors:
+                                    - &2 !ruby/object:Tile
+                                      has_bomb: false
+                                      state: 
+                                      neighbors:
+                                      - &4 !ruby/object:Tile
+                                        has_bomb: false
+                                        state: 
+                                        neighbors:
+                                        - *1
+                                        - *2
+                                        - &5 !ruby/object:Tile
+                                          has_bomb: false
+                                          state: 
+                                          neighbors:
+                                          - &7 !ruby/object:Tile
+                                            has_bomb: false
+                                            state: 
+                                            neighbors:
+                                            - *3
+                                            - *1
+                                            - *2
+                                            - *4
+                                            - *5
+                                            - &8 !ruby/object:Tile
+                                              has_bomb: false
+                                              state: 
+                                              neighbors:
+                                              - &10 !ruby/object:Tile
+                                                has_bomb: true
+                                                state: 
+                                                neighbors:
+                                                - *6
+                                                - *3
+                                                - *1
+                                                - *7
+                                                - *8
+                                                - &11 !ruby/object:Tile
+                                                  has_bomb: false
+                                                  state: 
+                                                  neighbors:
+                                                  - &13 !ruby/object:Tile
+                                                    has_bomb: false
+                                                    state: 1
+                                                    neighbors:
+                                                    - *9
+                                                    - *6
+                                                    - *3
+                                                    - *10
+                                                    - *11
+                                                    - &14 !ruby/object:Tile
+                                                      has_bomb: false
+                                                      state: 2
+                                                      neighbors:
+                                                      - &16 !ruby/object:Tile
+                                                        has_bomb: false
+                                                        state: 0
+                                                        neighbors:
+                                                        - *12
+                                                        - *9
+                                                        - *6
+                                                        - *13
+                                                        - *14
+                                                        - &17 !ruby/object:Tile
+                                                          has_bomb: false
+                                                          state: 0
+                                                          neighbors:
+                                                          - &19 !ruby/object:Tile
+                                                            has_bomb: false
+                                                            state: 0
+                                                            neighbors:
+                                                            - *15
+                                                            - *12
+                                                            - *9
+                                                            - *16
+                                                            - *17
+                                                            - &20 !ruby/object:Tile
+                                                              has_bomb: false
+                                                              state: 0
+                                                              neighbors:
+                                                              - &81 !ruby/object:Tile
+                                                                has_bomb: false
+                                                                state: 1
+                                                                neighbors:
+                                                                - *18
+                                                                - *15
+                                                                - *12
+                                                                - *19
+                                                                - *20
+                                                                - *21
+                                                                - &24 !ruby/object:Tile
+                                                                  has_bomb: true
+                                                                  state: 
+                                                                  neighbors:
+                                                                  - &25 !ruby/object:Tile
+                                                                    has_bomb: false
+                                                                    state: 1
+                                                                    neighbors:
+                                                                    - *22
+                                                                    - *18
+                                                                    - *23
+                                                                    - *24
+                                                                    - &26 !ruby/object:Tile
+                                                                      has_bomb: false
+                                                                      state: 
+                                                                      neighbors:
+                                                                      - *25
+                                                                      - *23
+                                                                      - *24
+                                                                      - &53 !ruby/object:Tile
+                                                                        has_bomb: false
+                                                                        state: 2
+                                                                        neighbors:
+                                                                        - *26
+                                                                        - *24
+                                                                        - *21
+                                                                        - &28 !ruby/object:Tile
+                                                                          has_bomb: false
+                                                                          state: 1
+                                                                          neighbors:
+                                                                          - *24
+                                                                          - *21
+                                                                          - *20
+                                                                          - *27
+                                                                          - &41 !ruby/object:Tile
+                                                                            has_bomb: false
+                                                                            state: 0
+                                                                            neighbors:
+                                                                            - *28
+                                                                            - *27
+                                                                            - &37 !ruby/object:Tile
+                                                                              has_bomb: false
+                                                                              state: 0
+                                                                              neighbors:
+                                                                              - *20
+                                                                              - *17
+                                                                              - *14
+                                                                              - &34 !ruby/object:Tile
+                                                                                has_bomb: false
+                                                                                state: 1
+                                                                                neighbors:
+                                                                                - *17
+                                                                                - *14
+                                                                                - *11
+                                                                                - &31 !ruby/object:Tile
+                                                                                  has_bomb: true
+                                                                                  state: 
+                                                                                  neighbors:
+                                                                                  - *14
+                                                                                  - *11
+                                                                                  - *8
+                                                                                  - &29 !ruby/object:Tile
+                                                                                    has_bomb: false
+                                                                                    state: 
+                                                                                    neighbors:
+                                                                                    - *11
+                                                                                    - *8
+                                                                                    - *5
+                                                                                    - &30 !ruby/object:Tile
+                                                                                      has_bomb: true
+                                                                                      state: 
+                                                                                      neighbors:
+                                                                                      - *8
+                                                                                      - *5
+                                                                                      - &32 !ruby/object:Tile
+                                                                                        has_bomb: false
+                                                                                        state: 
+                                                                                        neighbors:
+                                                                                        - *29
+                                                                                        - *30
+                                                                                        - &33 !ruby/object:Tile
+                                                                                          has_bomb: true
+                                                                                          state: 
+                                                                                          neighbors:
+                                                                                          - &35 !ruby/object:Tile
+                                                                                            has_bomb: false
+                                                                                            state: 
+                                                                                            neighbors:
+                                                                                            - *31
+                                                                                            - *29
+                                                                                            - *30
+                                                                                            - *32
+                                                                                            - *33
+                                                                                            - &36 !ruby/object:Tile
+                                                                                              has_bomb: false
+                                                                                              state: 
+                                                                                              neighbors:
+                                                                                              - &38 !ruby/object:Tile
+                                                                                                has_bomb: false
+                                                                                                state: 
+                                                                                                neighbors:
+                                                                                                - *34
+                                                                                                - *31
+                                                                                                - *29
+                                                                                                - *35
+                                                                                                - *36
+                                                                                                - &39 !ruby/object:Tile
+                                                                                                  has_bomb: true
+                                                                                                  state: 
+                                                                                                  neighbors:
+                                                                                                  - &43 !ruby/object:Tile
+                                                                                                    has_bomb: false
+                                                                                                    state: 3
+                                                                                                    neighbors:
+                                                                                                    - *37
+                                                                                                    - *34
+                                                                                                    - *31
+                                                                                                    - *38
+                                                                                                    - *39
+                                                                                                    - *40
+                                                                                                    - &44 !ruby/object:Tile
+                                                                                                      has_bomb: false
+                                                                                                      state: 1
+                                                                                                      neighbors:
+                                                                                                      - *41
+                                                                                                      - *42
+                                                                                                      - *43
+                                                                                                      - *40
+                                                                                                      - &46 !ruby/object:Tile
+                                                                                                        has_bomb: false
+                                                                                                        state: 2
+                                                                                                        neighbors:
+                                                                                                        - *44
+                                                                                                        - *40
+                                                                                                        - *39
+                                                                                                        - *45
+                                                                                                        - &50 !ruby/object:Tile
+                                                                                                          has_bomb: false
+                                                                                                          state: 0
+                                                                                                          neighbors:
+                                                                                                          - *46
+                                                                                                          - *45
+                                                                                                          - &47 !ruby/object:Tile
+                                                                                                            has_bomb: false
+                                                                                                            state: 3
+                                                                                                            neighbors:
+                                                                                                            - *39
+                                                                                                            - *36
+                                                                                                            - *33
+                                                                                                            - &48 !ruby/object:Tile
+                                                                                                              has_bomb: false
+                                                                                                              state: 
+                                                                                                              neighbors:
+                                                                                                              - *36
+                                                                                                              - *33
+                                                                                                              - &52 !ruby/object:Tile
+                                                                                                                has_bomb: true
+                                                                                                                state: 
+                                                                                                                neighbors:
+                                                                                                                - *47
+                                                                                                                - *48
+                                                                                                                - *49
+                                                                                                                - &80 !ruby/object:Tile
+                                                                                                                  has_bomb: false
+                                                                                                                  state: 1
+                                                                                                                  neighbors:
+                                                                                                                  - *50
+                                                                                                                  - *51
+                                                                                                                  - *52
+                                                                                                                  - *49
+                                                                                                                  - &65 !ruby/object:Tile
+                                                                                                                    has_bomb: false
+                                                                                                                    state: 0
+                                                                                                                    neighbors:
+                                                                                                                    - &63 !ruby/object:Tile
+                                                                                                                      has_bomb: false
+                                                                                                                      state: 0
+                                                                                                                      neighbors:
+                                                                                                                      - &61 !ruby/object:Tile
+                                                                                                                        has_bomb: false
+                                                                                                                        state: 1
+                                                                                                                        neighbors:
+                                                                                                                        - &54 !ruby/object:Tile
+                                                                                                                          has_bomb: false
+                                                                                                                          state: 0
+                                                                                                                          neighbors:
+                                                                                                                          - &58 !ruby/object:Tile
+                                                                                                                            has_bomb: false
+                                                                                                                            state: 0
+                                                                                                                            neighbors:
+                                                                                                                            - *53
+                                                                                                                            - *28
+                                                                                                                            - *27
+                                                                                                                            - *41
+                                                                                                                            - *54
+                                                                                                                            - &59 !ruby/object:Tile
+                                                                                                                              has_bomb: false
+                                                                                                                              state: 0
+                                                                                                                              neighbors:
+                                                                                                                              - &55 !ruby/object:Tile
+                                                                                                                                has_bomb: false
+                                                                                                                                state: 1
+                                                                                                                                neighbors:
+                                                                                                                                - &56 !ruby/object:Tile
+                                                                                                                                  has_bomb: false
+                                                                                                                                  state: 
+                                                                                                                                  neighbors:
+                                                                                                                                  - *26
+                                                                                                                                  - *24
+                                                                                                                                  - *53
+                                                                                                                                  - *55
+                                                                                                                                  - &57 !ruby/object:Tile
+                                                                                                                                    has_bomb: true
+                                                                                                                                    state: 
+                                                                                                                                    neighbors:
+                                                                                                                                    - *56
+                                                                                                                                    - *53
+                                                                                                                                    - *55
+                                                                                                                                    - &60 !ruby/object:Tile
+                                                                                                                                      has_bomb: false
+                                                                                                                                      state: 1
+                                                                                                                                      neighbors:
+                                                                                                                                      - *57
+                                                                                                                                      - *55
+                                                                                                                                      - *58
+                                                                                                                                      - *59
+                                                                                                                                      - &66 !ruby/object:Tile
+                                                                                                                                        has_bomb: false
+                                                                                                                                        state: 0
+                                                                                                                                        neighbors:
+                                                                                                                                        - *60
+                                                                                                                                        - *59
+                                                                                                                                        - *54
+                                                                                                                                        - &62 !ruby/object:Tile
+                                                                                                                                          has_bomb: false
+                                                                                                                                          state: 0
+                                                                                                                                          neighbors:
+                                                                                                                                          - *59
+                                                                                                                                          - *54
+                                                                                                                                          - *44
+                                                                                                                                          - *61
+                                                                                                                                          - &64 !ruby/object:Tile
+                                                                                                                                            has_bomb: false
+                                                                                                                                            state: 0
+                                                                                                                                            neighbors:
+                                                                                                                                            - *62
+                                                                                                                                            - *61
+                                                                                                                                            - *46
+                                                                                                                                            - *63
+                                                                                                                                            - &79 !ruby/object:Tile
+                                                                                                                                              has_bomb: false
+                                                                                                                                              state: 0
+                                                                                                                                              neighbors:
+                                                                                                                                              - *64
+                                                                                                                                              - *63
+                                                                                                                                              - *50
+                                                                                                                                              - *65
+                                                                                                                                              - &67 !ruby/object:Tile
+                                                                                                                                                has_bomb: false
+                                                                                                                                                state: 0
+                                                                                                                                                neighbors:
+                                                                                                                                                - &73 !ruby/object:Tile
+                                                                                                                                                  has_bomb: false
+                                                                                                                                                  state: 1
+                                                                                                                                                  neighbors:
+                                                                                                                                                  - *66
+                                                                                                                                                  - *62
+                                                                                                                                                  - *61
+                                                                                                                                                  - *64
+                                                                                                                                                  - *67
+                                                                                                                                                  - &74 !ruby/object:Tile
+                                                                                                                                                    has_bomb: false
+                                                                                                                                                    state: 1
+                                                                                                                                                    neighbors:
+                                                                                                                                                    - &71 !ruby/object:Tile
+                                                                                                                                                      has_bomb: false
+                                                                                                                                                      state: 1
+                                                                                                                                                      neighbors:
+                                                                                                                                                      - &68 !ruby/object:Tile
+                                                                                                                                                        has_bomb: false
+                                                                                                                                                        state: 0
+                                                                                                                                                        neighbors:
+                                                                                                                                                        - &69 !ruby/object:Tile
+                                                                                                                                                          has_bomb: false
+                                                                                                                                                          state: 1
+                                                                                                                                                          neighbors:
+                                                                                                                                                          - *57
+                                                                                                                                                          - *55
+                                                                                                                                                          - *60
+                                                                                                                                                          - *68
+                                                                                                                                                          - &70 !ruby/object:Tile
+                                                                                                                                                            has_bomb: false
+                                                                                                                                                            state: 0
+                                                                                                                                                            neighbors:
+                                                                                                                                                            - *69
+                                                                                                                                                            - *60
+                                                                                                                                                            - *68
+                                                                                                                                                            - &72 !ruby/object:Tile
+                                                                                                                                                              has_bomb: false
+                                                                                                                                                              state: 1
+                                                                                                                                                              neighbors:
+                                                                                                                                                              - *70
+                                                                                                                                                              - *68
+                                                                                                                                                              - *66
+                                                                                                                                                              - *71
+                                                                                                                                                              - &77 !ruby/object:Tile
+                                                                                                                                                                has_bomb: true
+                                                                                                                                                                state: 
+                                                                                                                                                                neighbors:
+                                                                                                                                                                - *72
+                                                                                                                                                                - *71
+                                                                                                                                                                - *73
+                                                                                                                                                                - *74
+                                                                                                                                                                - &75 !ruby/object:Tile
+                                                                                                                                                                  has_bomb: false
+                                                                                                                                                                  state: 1
+                                                                                                                                                                  neighbors:
+                                                                                                                                                                  - &76 !ruby/object:Tile
+                                                                                                                                                                    has_bomb: false
+                                                                                                                                                                    state: 0
+                                                                                                                                                                    neighbors:
+                                                                                                                                                                    - *70
+                                                                                                                                                                    - *68
+                                                                                                                                                                    - *72
+                                                                                                                                                                    - *75
+                                                                                                                                                                    - &78 !ruby/object:Tile
+                                                                                                                                                                      has_bomb: false
+                                                                                                                                                                      state: 0
+                                                                                                                                                                      neighbors:
+                                                                                                                                                                      - *76
+                                                                                                                                                                      - *72
+                                                                                                                                                                      - *75
+                                                                                                                                                                      flagged: false
+                                                                                                                                                                    flagged: false
+                                                                                                                                                                  - *72
+                                                                                                                                                                  - *71
+                                                                                                                                                                  - *77
+                                                                                                                                                                  - *78
+                                                                                                                                                                  flagged: false
+                                                                                                                                                                flagged: false
+                                                                                                                                                              - *75
+                                                                                                                                                              - *78
+                                                                                                                                                              - *76
+                                                                                                                                                              flagged: false
+                                                                                                                                                            - *76
+                                                                                                                                                            flagged: false
+                                                                                                                                                          flagged: false
+                                                                                                                                                        - *60
+                                                                                                                                                        - *59
+                                                                                                                                                        - *66
+                                                                                                                                                        - *71
+                                                                                                                                                        - *72
+                                                                                                                                                        - *76
+                                                                                                                                                        - *70
+                                                                                                                                                        flagged: false
+                                                                                                                                                      - *66
+                                                                                                                                                      - *62
+                                                                                                                                                      - *73
+                                                                                                                                                      - *74
+                                                                                                                                                      - *77
+                                                                                                                                                      - *75
+                                                                                                                                                      - *72
+                                                                                                                                                      flagged: false
+                                                                                                                                                    - *73
+                                                                                                                                                    - *64
+                                                                                                                                                    - *67
+                                                                                                                                                    - *77
+                                                                                                                                                    flagged: false
+                                                                                                                                                  - *77
+                                                                                                                                                  - *71
+                                                                                                                                                  flagged: false
+                                                                                                                                                - *64
+                                                                                                                                                - *63
+                                                                                                                                                - *79
+                                                                                                                                                - *74
+                                                                                                                                                flagged: false
+                                                                                                                                              flagged: false
+                                                                                                                                            - *67
+                                                                                                                                            - *74
+                                                                                                                                            - *73
+                                                                                                                                            flagged: false
+                                                                                                                                          - *73
+                                                                                                                                          - *71
+                                                                                                                                          - *66
+                                                                                                                                          flagged: false
+                                                                                                                                        - *73
+                                                                                                                                        - *71
+                                                                                                                                        - *72
+                                                                                                                                        - *68
+                                                                                                                                        flagged: false
+                                                                                                                                      - *68
+                                                                                                                                      - *70
+                                                                                                                                      - *69
+                                                                                                                                      flagged: false
+                                                                                                                                    - *69
+                                                                                                                                    flagged: false
+                                                                                                                                  flagged: false
+                                                                                                                                - *53
+                                                                                                                                - *28
+                                                                                                                                - *58
+                                                                                                                                - *59
+                                                                                                                                - *60
+                                                                                                                                - *69
+                                                                                                                                - *57
+                                                                                                                                flagged: false
+                                                                                                                              - *58
+                                                                                                                              - *41
+                                                                                                                              - *54
+                                                                                                                              - *62
+                                                                                                                              - *66
+                                                                                                                              - *68
+                                                                                                                              - *60
+                                                                                                                              flagged: false
+                                                                                                                            - *60
+                                                                                                                            - *55
+                                                                                                                            flagged: false
+                                                                                                                          - *41
+                                                                                                                          - *42
+                                                                                                                          - *44
+                                                                                                                          - *61
+                                                                                                                          - *62
+                                                                                                                          - *66
+                                                                                                                          - *59
+                                                                                                                          flagged: false
+                                                                                                                        - *44
+                                                                                                                        - *40
+                                                                                                                        - *46
+                                                                                                                        - *63
+                                                                                                                        - *64
+                                                                                                                        - *73
+                                                                                                                        - *62
+                                                                                                                        flagged: false
+                                                                                                                      - *46
+                                                                                                                      - *45
+                                                                                                                      - *50
+                                                                                                                      - *65
+                                                                                                                      - *79
+                                                                                                                      - *67
+                                                                                                                      - *64
+                                                                                                                      flagged: false
+                                                                                                                    - *50
+                                                                                                                    - *51
+                                                                                                                    - *80
+                                                                                                                    - *79
+                                                                                                                    flagged: false
+                                                                                                                  flagged: false
+                                                                                                                - *51
+                                                                                                                flagged: false
+                                                                                                              - *51
+                                                                                                              - *47
+                                                                                                              flagged: false
+                                                                                                            - *52
+                                                                                                            - *51
+                                                                                                            - *50
+                                                                                                            - *45
+                                                                                                            flagged: false
+                                                                                                          - *51
+                                                                                                          - *80
+                                                                                                          - *65
+                                                                                                          - *79
+                                                                                                          - *63
+                                                                                                          flagged: false
+                                                                                                        - *63
+                                                                                                        - *64
+                                                                                                        - *61
+                                                                                                        flagged: false
+                                                                                                      - *61
+                                                                                                      - *62
+                                                                                                      - *54
+                                                                                                      flagged: false
+                                                                                                    - *42
+                                                                                                    flagged: false
+                                                                                                  - *38
+                                                                                                  - *35
+                                                                                                  - *36
+                                                                                                  - *47
+                                                                                                  - *45
+                                                                                                  - *46
+                                                                                                  - *40
+                                                                                                  flagged: false
+                                                                                                - *40
+                                                                                                - *43
+                                                                                                flagged: false
+                                                                                              - *35
+                                                                                              - *32
+                                                                                              - *33
+                                                                                              - *48
+                                                                                              - *47
+                                                                                              - *45
+                                                                                              - *39
+                                                                                              flagged: false
+                                                                                            - *39
+                                                                                            - *38
+                                                                                            flagged: false
+                                                                                          - *32
+                                                                                          - *48
+                                                                                          - *47
+                                                                                          - *36
+                                                                                          flagged: false
+                                                                                        - *36
+                                                                                        - *35
+                                                                                        flagged: false
+                                                                                      - *35
+                                                                                      - *29
+                                                                                      flagged: false
+                                                                                    - *32
+                                                                                    - *35
+                                                                                    - *38
+                                                                                    - *31
+                                                                                    flagged: false
+                                                                                  - *35
+                                                                                  - *38
+                                                                                  - *43
+                                                                                  - *34
+                                                                                  flagged: false
+                                                                                - *38
+                                                                                - *43
+                                                                                - *42
+                                                                                - *37
+                                                                                flagged: false
+                                                                              - *43
+                                                                              - *42
+                                                                              - *41
+                                                                              - *27
+                                                                              flagged: false
+                                                                            - *42
+                                                                            - *44
+                                                                            - *54
+                                                                            - *59
+                                                                            - *58
+                                                                            flagged: false
+                                                                          - *58
+                                                                          - *55
+                                                                          - *53
+                                                                          flagged: false
+                                                                        - *58
+                                                                        - *55
+                                                                        - *57
+                                                                        - *56
+                                                                        flagged: false
+                                                                      - *56
+                                                                      flagged: false
+                                                                    flagged: false
+                                                                  - *23
+                                                                  - *81
+                                                                  - *21
+                                                                  - *28
+                                                                  - *53
+                                                                  - *56
+                                                                  - *26
+                                                                  flagged: false
+                                                                - *23
+                                                                flagged: false
+                                                              - *19
+                                                              - *16
+                                                              - *17
+                                                              - *37
+                                                              - *27
+                                                              - *28
+                                                              - *21
+                                                              flagged: false
+                                                            - *21
+                                                            - *81
+                                                            flagged: false
+                                                          - *16
+                                                          - *13
+                                                          - *14
+                                                          - *34
+                                                          - *37
+                                                          - *27
+                                                          - *20
+                                                          flagged: false
+                                                        - *20
+                                                        - *19
+                                                        flagged: false
+                                                      - *13
+                                                      - *10
+                                                      - *11
+                                                      - *31
+                                                      - *34
+                                                      - *37
+                                                      - *17
+                                                      flagged: false
+                                                    - *17
+                                                    - *16
+                                                    flagged: false
+                                                  - *10
+                                                  - *7
+                                                  - *8
+                                                  - *29
+                                                  - *31
+                                                  - *34
+                                                  - *14
+                                                  flagged: false
+                                                - *14
+                                                - *13
+                                                flagged: false
+                                              - *7
+                                              - *4
+                                              - *5
+                                              - *30
+                                              - *29
+                                              - *31
+                                              - *11
+                                              flagged: false
+                                            - *11
+                                            - *10
+                                            flagged: false
+                                          - *4
+                                          - *30
+                                          - *29
+                                          - *8
+                                          flagged: false
+                                        - *8
+                                        - *7
+                                        flagged: false
+                                      - *7
+                                      - *1
+                                      flagged: false
+                                    - *4
+                                    - *7
+                                    - *10
+                                    - *3
+                                    flagged: false
+                                  - *7
+                                  - *10
+                                  - *13
+                                  - *6
+                                  flagged: false
+                                - *10
+                                - *13
+                                - *16
+                                - *9
+                                flagged: false
+                              - *13
+                              - *16
+                              - *19
+                              - *12
+                              flagged: false
+                            - *16
+                            - *19
+                            - *81
+                            - *15
+                            flagged: false
+                          - *19
+                          - *81
+                          - *23
+                          - *18
+                          flagged: false
+                        - *81
+                        - *23
+                        - *25
+                        - *22
+                        flagged: false
+                      - *23
+                      - *25
+                      flagged: false
+                    - *18
+                    - *15
+                    - *81
+                    - *21
+                    - *24
+                    - *26
+                    - *25
+                    flagged: false
+                  - *81
+                  - *19
+                  - *20
+                  - *27
+                  - *28
+                  - *53
+                  - *24
+                  flagged: false
+                - *20
+                - *17
+                - *37
+                - *42
+                - *41
+                - *58
+                - *28
+                flagged: false
+              - *37
+              - *34
+              - *43
+              - *40
+              - *44
+              - *54
+              - *41
+              flagged: false
+            - *43
+            - *38
+            - *39
+            - *45
+            - *46
+            - *61
+            - *44
+            flagged: false
+          - *39
+          - *36
+          - *47
+          - *51
+          - *50
+          - *63
+          - *46
+          flagged: false
+        - *47
+        - *48
+        - *52
+        - *49
+        - *80
+        - *65
+        - *50
+        flagged: false
+      - *52
+      - *80
+      flagged: false
+    - *80
+    - *65
+    - *79
+    - *67
+    - *74
+    - *77
+    - *75
+    - *78
+  - - *52
+    - *51
+    - *50
+    - *63
+    - *64
+    - *73
+    - *71
+    - *72
+    - *76
+  - - *48
+    - *47
+    - *45
+    - *46
+    - *61
+    - *62
+    - *66
+    - *68
+    - *70
+  - - *33
+    - *36
+    - *39
+    - *40
+    - *44
+    - *54
+    - *59
+    - *60
+    - *69
+  - - *32
+    - *35
+    - *38
+    - *43
+    - *42
+    - *41
+    - *58
+    - *55
+    - *57
+  - - *30
+    - *29
+    - *31
+    - *34
+    - *37
+    - *27
+    - *28
+    - *53
+    - *56
+  - - *5
+    - *8
+    - *11
+    - *14
+    - *17
+    - *20
+    - *21
+    - *24
+    - *26
+  - - *4
+    - *7
+    - *10
+    - *13
+    - *16
+    - *19
+    - *81
+    - *23
+    - *25
+  - - *2
+    - *1
+    - *3
+    - *6
+    - *9
+    - *12
+    - *15
+    - *18
+    - *22
